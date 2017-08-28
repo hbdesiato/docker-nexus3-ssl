@@ -1,4 +1,4 @@
-FROM sonatype/docker-nexus3
+FROM sonatype/nexus3
 
 USER root
 
