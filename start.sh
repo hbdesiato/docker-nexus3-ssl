@@ -8,4 +8,4 @@ if [ ! -e "$NEXUS_DATA/etc/ssl/keystore.jks" ]; then
 	-ext BC:true=ca:true \
 	-dname "cn=$HOST"
 fi
-bin/nexus run
+~/bin/nexus run
